@@ -6,9 +6,6 @@ import java.awt.image.*;
 
 public class CifarUI extends JFrame {
 
-    private JPanel imageA;
-    private JPanel imageB;
-
     private JLabel testImage;
     private JLabel resultImage;
     private JLabel result;
@@ -29,9 +26,6 @@ public class CifarUI extends JFrame {
         add(resultImage);
         add(result);
 
-
-//        add(imageA);
-//        add(imageB);
 
         setSize(400,400);
         setLayout(null);
