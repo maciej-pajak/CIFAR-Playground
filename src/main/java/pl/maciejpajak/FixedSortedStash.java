@@ -1,7 +1,10 @@
 package pl.maciejpajak;
 
-import java.util.Random;
 
+/**
+ * Simple data structure that keeps fixed number of biggest elements according to their natural ordering.
+ * @param <T>
+ */
 public class FixedSortedStash<T extends Comparable<T>> {
 
     private int size = 0;
